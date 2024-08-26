@@ -135,10 +135,10 @@ body {
 }
 
 /* Main Container Adjustments */
-#projects {
-    margin-left: 220px;
+#projects, main.container.mt-5 {
+    margin-left: 200px;
     padding: 2rem;
-    max-width: calc(100% - 220px);
+    max-width: calc(100% - 200px);
 }
 
 /* Align logo and nav at the top */
