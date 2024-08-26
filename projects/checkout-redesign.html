@@ -20,7 +20,7 @@
     <div id="side-nav-container"></div>
     <!-- JavaScript to Load Side Navigation -->
     <script>
-   fetch('assets/side-nav.html')
+   fetch('/side-nav.html')
            .then(response => response.text())
            .then(data => {
                document.getElementById('side-nav-container').innerHTML = data;
